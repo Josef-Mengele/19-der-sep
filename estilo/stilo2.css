@@ -1,0 +1,66 @@
+body {background-color: aquamarine;}
+.caja{
+    background-color: rgb(94, 255, 0);
+    padding: 10px;
+    font-size:23px ;
+    text-align:center ;
+    display: grid;
+    grid-gap:10px ;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr 5fr 1fr 1fr;
+    grid-template-areas:
+    "header header header"
+    "nav nav nav "
+    "section section section "
+    "foot foot foot "
+    "rrss rrss rrss "
+    ;
+}
+.header{
+    background-color: brown;
+    grid-column:header;
+}
+.nav{
+    background-color: rgb(128, 17, 91);
+    grid-column: nav;
+}
+.section{
+    background-color: rgb(6, 199, 233);
+    display: inline-block;
+    width: 1000px
+    text-align: right;
+}
+.add{
+    background-color: rgb(113, 22, 216);
+    
+    
+}
+.foot{
+    background-color: brown;
+    grid-column: foot;
+}
+
+
+.hijo-publi {
+
+    background-color: blue;
+    left: 500PX;
+    top: 500PX;
+}
+.section2 {
+    background-color: azure;
+    text-align: left;
+    
+}
+.face {
+    background-color: brown;
+    display: inline-block;
+}
+.you{
+        background-color: brown;
+        
+        display: inline-block;
+}
+.rrss{
+    background-color: brown;
+}

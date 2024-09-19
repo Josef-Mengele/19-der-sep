@@ -1,0 +1,30 @@
+.contenedor{
+    background-color: rgb(94, 255, 0);
+    padding: 10px;
+    font-size:23px ;
+    text-align:center ;
+    display: grid;
+    grid-grap:10px ;
+    /*grid-template-columns: 140px 50px;
+    grid-template-rows:100px 100px 50px ;*/
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-row: ;
+
+}
+.contenedor>div{
+    background-color: gold;
+}
+.contenedor .hijo1{
+    background-color: aqua;
+    grid-column: 1/3;
+    grid-row: 1/4;
+}
+.co9ntenedor .hijo2 {
+    background-color: blue;
+    grid-column: 3/4;
+    grid-row: 1/5;
+
+}
+.contenedor .hijo3 {
+
+}
